@@ -381,6 +381,40 @@ img {
     line-height: 1.19;
 }
 
+.team-text-job {
+    margin-bottom: 16px;
+}
+
+.social-net-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social-net-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-net-icon {
+    fill: #AFB1B8;
+}
+
+.social-net-link:hover,
+.social-net-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-net-link:hover .social-net-icon,
+.social-net-link:focus .social-net-icon {
+    fill: var(--white-color);
+}
+
 /* ==============/team===============*/
 
 /* ==============/main===============*/

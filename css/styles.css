@@ -221,10 +221,28 @@ img {
 
 /* ===============hero===============*/
 .hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    /* фон якщо не завант. зобр. */
+    background-color: #C4C4C4;
+    /* фон-зображення+"затемнення" градієнтом */
+    background-image:
+        linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/hero-bg.jpg");
+    /* на майбутнє, 
+    для заміни зображень 
+    з іншими параметрами */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     color: var(--white-color);
-    background-color: var(--bgc-footer);
     text-align: center;
 }
 

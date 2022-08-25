@@ -241,10 +241,10 @@ img {
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url("../images/hero-bg.jpg");
-    /* на майбутнє, 
-    для заміни зображень 
-    з іншими параметрами */
     background-size: cover;
+    /* на майбутнє, 
+        для заміни зображень 
+        з іншими параметрами */
     background-position: center;
 
     color: var(--white-color);
@@ -508,17 +508,14 @@ img {
 
 .social-net-footer-title {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: inherit;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-color);
-
-    /* font-weight: 700; */
 }
 
 .footer-social-net-link {
     background-color: rgba(255, 255, 255, 0.1);
-
 }
 
 .footer-social-net-icon {
@@ -552,7 +549,8 @@ img {
 
 .portfolio-filter .btn:hover,
 .portfolio-filter .btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    box-shadow:
+        0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -569,11 +567,13 @@ img {
 
 .portfolio-link {
     color: inherit;
-
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+/* «C4» У картках сторінки Портфоліо є ефект 
+тіні при ховері в будь-якому місці картки. */
+/* Тільки при ХОВЕРІ ? */
+/* .portfolio-link:focus, */
+.portfolio-link:hover {
     display: block;
     box-shadow:
         0px 1px 1px rgba(0, 0, 0, 0.12),

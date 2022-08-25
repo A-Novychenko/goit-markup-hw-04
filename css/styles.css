@@ -177,8 +177,9 @@ img {
     margin-left: auto;
 }
 
-.contacts-header .link {
-    display: block;
+.contacts-header-link {
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -195,6 +196,11 @@ img {
 .page-header .link:hover:not(.logo.link),
 .page-header .link:focus:not(.logo.link) {
     color: var(--accent-color);
+}
+
+.header-icon {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 /* =============/header==============*/
@@ -238,7 +244,6 @@ img {
     /* на майбутнє, 
     для заміни зображень 
     з іншими параметрами */
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 

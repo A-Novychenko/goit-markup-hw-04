@@ -417,6 +417,46 @@ img {
 
 /* ==============/team===============*/
 
+/* ===============clients===============*/
+.clients-list {
+    display: flex;
+    column-gap: 30px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    /* Або можна зробити 
+    padding: 16px 32px;
+    але, памятаю десь з лекції, 
+    що не бажано розширювати посиланням
+    батьківський елемент */
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--accent-color);
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+    fill: var(--accent-color);
+}
+
+
+/* ==============/clients===============*/
+
 /* ==============/main===============*/
 
 
